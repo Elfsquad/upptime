@@ -8,6 +8,9 @@ sites:
   - name: EMS
     url: https://ems.elfsquad.io/
 
+i18n:
+  footer: Elfsquad - 2026
+
 status-website:
   baseUrl: /upptime
   logoUrl: https://www.elfsquad.io/hubfs/Elfsquad%20-%20Rebrand/Logo/elfsquad-primary-white.svg
@@ -21,8 +24,6 @@ status-website:
       href: /
     - title: Elfsquad
       href: https://www.elfsquad.io
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
   css: |
     @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&display=swap');
     :root {
@@ -38,38 +39,6 @@ status-website:
     nav {
       background-color: #00221f;
     }
-    .footer {
-      background-color: #00221f;
-      border-top: 1px solid #003330;
-    }
-  footerHtml: |
-    <div style="background-color: #00221f; padding: 40px 20px; text-align: center; font-family: 'Instrument Sans', sans-serif;">
-      <div style="margin-bottom: 20px;">
-        <a href="https://www.elfsquad.io" target="_blank" style="display: inline-block;">
-          <img src="https://www.elfsquad.io/hubfs/Elfsquad%20-%20Rebrand/Logo/elfsquad-primary-white.svg" alt="Elfsquad" style="height: 40px;">
-        </a>
-      </div>
-      <p style="color: #cccccc; font-size: 14px; margin-bottom: 20px; max-width: 600px; margin-left: auto; margin-right: auto;">
-        We allow businesses to break free from outdated IT with self-service CPQ software that empowers your team and evolves with your product and process complexity.
-      </p>
-      <div style="margin-bottom: 20px;">
-        <a href="https://www.linkedin.com/company/elfsquad/" target="_blank" style="display: inline-block; margin: 0 10px; color: #AEFFCB; text-decoration: none;">
-          <svg width="24" height="24" viewBox="0 0 448 512" fill="currentColor"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
-        </a>
-        <a href="https://www.youtube.com/channel/UCOEpmy27d0Zqh-K-KISDDQQ" target="_blank" style="display: inline-block; margin: 0 10px; color: #AEFFCB; text-decoration: none;">
-          <svg width="24" height="24" viewBox="0 0 576 512" fill="currentColor"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
-        </a>
-      </div>
-      <div style="border-top: 1px solid #003330; padding-top: 20px; font-size: 12px; color: #888888;">
-        <p style="margin-bottom: 10px;">Copyright © Elfsquad</p>
-        <div>
-          <a href="https://elfsquad.io/terms-and-conditions" target="_blank" style="color: #888888; margin: 0 10px; text-decoration: none;">Terms & Conditions</a>
-          <a href="https://www.elfsquad.io/privacystatement" target="_blank" style="color: #888888; margin: 0 10px; text-decoration: none;">Privacy</a>
-          <a href="https://www.elfsquad.io/cookie-statement/" target="_blank" style="color: #888888; margin: 0 10px; text-decoration: none;">Cookies</a>
-          <a href="https://www.elfsquad.io/contact-us" target="_blank" style="color: #888888; margin: 0 10px; text-decoration: none;">Contact</a>
-        </div>
-      </div>
-    </div>
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
