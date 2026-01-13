@@ -13,15 +13,30 @@ status-website:
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
   baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://www.elfsquad.io/hubfs/Elfsquad%20-%20Rebrand/Logo/elfsquad-primary-white.svg
+  favicon: https://www.elfsquad.io/hubfs/Elfsquad%20-%20Rebrand/Favicon/favicon-32x32.png
+  name: Elfsquad Status
+  introTitle: "**Elfsquad** System Status"
+  introMessage: This page provides real-time status information for Elfsquad services. Check back here for updates on any service disruptions.
+  theme: dark
   navbar:
     - title: Status
       href: /
+    - title: Elfsquad
+      href: https://www.elfsquad.io
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  css: |
+    :root {
+      --color-background: #00221f;
+      --color-background-secondary: #003330;
+    }
+    body {
+      background-color: #00221f;
+    }
+    nav {
+      background-color: #00221f;
+    }
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
