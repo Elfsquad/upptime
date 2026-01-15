@@ -7,7 +7,14 @@ sites:
     url: https://www.elfsquad.io/
   - name: EMS
     url: https://ems.elfsquad.io/
-
+  - name: Data API
+    url: https://api.elfsquad.io/data/1/health/ready
+  - name: Configurator API
+    url: https://api.elfsquad.io/configurator/1/health/ready
+  - name: Quotation API
+    url: https://api.elfsquad.io/quotation/1/health/ready
+  - name: Core API
+    url: https://api.elfsquad.io/api/2/health/ready
 i18n:
   footer: Elfsquad - 2026
 
